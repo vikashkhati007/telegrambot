@@ -15,7 +15,7 @@ bot.onText(/\/getemail/, (msg, match) => {
   randomNumber++;
 
   const getmessagelist = async () => {
-    let email = `nichacks${randomNumber}@mailbox.in.ua`;
+    let email = `nichacks${randomNumber}@rover.info`;
     let chatId = msg.chat.id;
     bot.sendMessage(chatId, "YOUR EMAIL -> " + email);
 
